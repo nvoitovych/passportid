@@ -25,6 +25,7 @@
 	let tooltipHovered = false;
 	let autoHideTimeout: ReturnType<typeof setTimeout> | null = null;
 	let hideTooltipTimeout: ReturnType<typeof setTimeout> | null = null;
+	let handleThemeChange: (() => void) | null = null;
 
 	const countries = getUniqueCountries();
 
@@ -222,7 +223,9 @@
 
 		// Scene setup
 		scene = new THREE.Scene();
-		scene.background = new THREE.Color(0xf8fafa);
+		// Set background color based on current theme
+		const isDarkMode = document.documentElement.classList.contains('dark');
+		scene.background = new THREE.Color(isDarkMode ? 0x1a1f1f : 0xf8fafa);
 
 		// Camera setup
 		camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
@@ -473,11 +476,29 @@
 			renderer.setSize(newWidth, newHeight);
 		}
 		window.addEventListener('resize', handleResize);
+		
+		// Listen for theme changes (class changes on html element)
+		const observer = new MutationObserver(() => {
+			if (scene) {
+				const isDarkMode = document.documentElement.classList.contains('dark');
+				scene.background = new THREE.Color(isDarkMode ? 0x1a1f1f : 0xf8fafa);
+			}
+		});
+		observer.observe(document.documentElement, {
+			attributes: true,
+			attributeFilter: ['class']
+		});
+		handleThemeChange = () => {
+			observer.disconnect();
+		};
 
 		// Cleanup
 		return () => {
 			clearAutoHide();
 			window.removeEventListener('resize', handleResize);
+			if (handleThemeChange) {
+				handleThemeChange();
+			}
 			if (renderer && renderer.domElement) {
 				renderer.domElement.removeEventListener('mousemove', onMouseMove);
 				renderer.domElement.removeEventListener('click', onMouseClick);
