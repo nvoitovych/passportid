@@ -16,7 +16,7 @@
 			<div class="flex flex-col items-center md:items-start gap-2">
 				<p class="text-sm font-medium">Made by nv</p>
 				<p class="text-xs text-muted-foreground">
-					© 2024 Document Photo. All rights reserved.
+					© 2025 PassportPhoto. <a href="https://github.com/nvoitovych/passportid/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" class="hover:text-foreground transition-colors">MIT License</a>
 				</p>
 			</div>
 			<div class="flex flex-col items-center gap-4 md:flex-row md:gap-8">
