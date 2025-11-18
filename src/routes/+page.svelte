@@ -95,7 +95,7 @@
 	<div class="container mx-auto max-w-4xl text-center relative z-10">
 		<!-- Open Source Badge -->
 		<a
-			href="https://github.com/yourusername/passportid"
+			href="https://github.com/nvoitovych/passportid"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full relative bg-transparent border-2 border-primary/40 hover:border-primary/60 transition-all"
