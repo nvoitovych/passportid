@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "us-passport",
+    "country": "United States",
+    "countryCode": "US",
+    "type": "passport",
+    "name": "US Passport Photo",
+    "description": "Official US passport photo requirements (2x2 inch)",
+    "source": "travel.state.gov",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        25,
+        35
+      ],
+      "headHeightPerc": [
+        50,
+        70
+      ],
+      "headPosition": {
+        "eyeLineMM": [
+          28,
+          35
+        ],
+        "top": 15,
+        "bottom": 85
+      },
+      "minHeadSize": 50
+    },
+    "tips": [
+      "Neutral facial expression",
+      "Eyes open",
+      "No glasses unless with medical exception"
+    ]
+  },
+  {
+    "id": "us-visa",
+    "country": "United States",
+    "countryCode": "US",
+    "type": "visa",
+    "name": "US Visa Photo",
+    "source": "travel.state.gov",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        25,
+        35
+      ],
+      "headHeightPerc": [
+        50,
+        70
+      ],
+      "headPosition": {
+        "top": 15,
+        "bottom": 85
+      },
+      "minHeadSize": 50
+    }
+  },
+  {
+    "id": "us-id",
+    "country": "United States",
+    "countryCode": "US",
+    "type": "id",
+    "name": "US State ID / REAL ID",
+    "source": "state DMVs",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "us-student",
+    "country": "United States",
+    "countryCode": "US",
+    "type": "other",
+    "name": "US Student ID",
+    "source": "generic academic standards",
+    "requirements": {
+      "width": 300,
+      "height": 400,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "gb-passport",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "type": "passport",
+    "name": "UK Passport Photo",
+    "source": "gov.uk (Digital 900x1200px)",
+    "requirements": {
+      "width": 900,
+      "height": 1200,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        29,
+        34
+      ],
+      "headHeightPerc": [
+        64,
+        76
+      ],
+      "headPosition": {
+        "top": 15,
+        "bottom": 90
+      },
+      "minHeadSize": 64
+    }
+  },
+  {
+    "id": "gb-visa",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "type": "visa",
+    "name": "UK Visa Photo",
+    "source": "gov.uk",
+    "requirements": {
+      "width": 600,
+      "height": 750,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "gb-id",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "type": "id",
+    "name": "UK National ID (not widely used)",
+    "source": "local UK standards",
+    "requirements": {
+      "width": 600,
+      "height": 750,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "fr-passport",
+    "country": "France",
+    "countryCode": "FR",
+    "type": "passport",
+    "name": "French Passport Photo",
+    "source": "service-public.fr (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "colored",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ],
+      "headPosition": {
+        "top": 16,
+        "bottom": 84
+      },
+      "minHeadSize": 60
+    }
+  },
+  {
+    "id": "fr-id",
+    "country": "France",
+    "countryCode": "FR",
+    "type": "id",
+    "name": "French ID Card (CNI)",
+    "source": "service-public.fr",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "colored"
+    }
+  },
+  {
+    "id": "fr-visa",
+    "country": "France",
+    "countryCode": "FR",
+    "type": "visa",
+    "name": "France Visa / Schengen",
+    "source": "Schengen standards (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "de-passport",
+    "country": "Germany",
+    "countryCode": "DE",
+    "type": "passport",
+    "name": "German Passport Photo",
+    "source": "bundesdruckerei.de (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ],
+      "headPosition": {
+        "top": 16,
+        "bottom": 84
+      },
+      "minHeadSize": 60
+    }
+  },
+  {
+    "id": "de-id",
+    "country": "Germany",
+    "countryCode": "DE",
+    "type": "id",
+    "name": "Personalausweis",
+    "source": "bundesdruckerei.de",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "de-visa",
+    "country": "Germany",
+    "countryCode": "DE",
+    "type": "visa",
+    "name": "German Visa / Aufenthaltstitel",
+    "source": "auslanderbehorde",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "it-passport",
+    "country": "Italy",
+    "countryCode": "IT",
+    "type": "passport",
+    "name": "Italian Passport Photo",
+    "source": "poliziadistato.it (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "it-id",
+    "country": "Italy",
+    "countryCode": "IT",
+    "type": "id",
+    "name": "Carta d’Identità",
+    "source": "government.it",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "es-passport",
+    "country": "Spain",
+    "countryCode": "ES",
+    "type": "passport",
+    "name": "Spanish Passport Photo",
+    "source": "policia.es (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "pl-passport",
+    "country": "Poland",
+    "countryCode": "PL",
+    "type": "passport",
+    "name": "Polish Passport Photo",
+    "source": "gov.pl (35x45mm digital)",
+    "requirements": {
+      "width": 492,
+      "height": 633,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        35
+      ],
+      "headHeightPerc": [
+        70,
+        80
+      ],
+      "headPosition": {
+        "top": 15,
+        "bottom": 90
+      },
+      "minHeadSize": 70
+    }
+  },
+  {
+    "id": "be-passport",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "type": "passport",
+    "name": "Belgian Passport Photo",
+    "source": "belgium.be (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "nl-passport",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "type": "passport",
+    "name": "Dutch Passport Photo",
+    "source": "rijksoverheid.nl (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        26,
+        30
+      ],
+      "headHeightPerc": [
+        49,
+        56
+      ],
+      "headPosition": {
+        "top": 22,
+        "bottom": 78
+      },
+      "minHeadSize": 49
+    }
+  },
+  {
+    "id": "ua-passport",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "type": "passport",
+    "name": "Ukrainian International Passport",
+    "source": "dp.gov.ua (35x45mm standard)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        25,
+        35
+      ],
+      "headHeightPerc": [
+        50,
+        70
+      ],
+      "headPosition": {
+        "top": 15,
+        "bottom": 85
+      },
+      "minHeadSize": 50
+    }
+  },
+  {
+    "id": "ua-id",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "type": "id",
+    "name": "Ukrainian ID Card",
+    "source": "dp.gov.ua",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "ua-visa",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "type": "visa",
+    "name": "Ukraine Visa",
+    "source": "mfa.gov.ua",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "custom-free",
+    "country": "Custom",
+    "countryCode": "XX",
+    "type": "other",
+    "name": "Custom (no constraints)",
+    "requirements": {
+      "width": 0,
+      "height": 0,
+      "dpi": 300,
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "custom-3x4-cm",
+    "country": "Custom",
+    "countryCode": "XX",
+    "type": "other",
+    "name": "Custom 3×4 cm",
+    "requirements": {
+      "width": 354,
+      "height": 472,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "custom-4x3-cm",
+    "country": "Custom",
+    "countryCode": "XX",
+    "type": "other",
+    "name": "Custom 4×3 cm",
+    "requirements": {
+      "width": 472,
+      "height": 354,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "custom-35x45-mm",
+    "country": "Custom",
+    "countryCode": "XX",
+    "type": "other",
+    "name": "Custom 35×45 mm",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "custom-50x50-mm",
+    "country": "Custom",
+    "countryCode": "XX",
+    "type": "other",
+    "name": "Custom 50×50 mm",
+    "requirements": {
+      "width": 591,
+      "height": 591,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "custom-2x2-inch",
+    "country": "Custom",
+    "countryCode": "XX",
+    "type": "other",
+    "name": "Custom 2×2 inch",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "custom-600x600",
+    "country": "Custom",
+    "countryCode": "XX",
+    "type": "other",
+    "name": "Custom 600×600 px",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "ca-passport",
+    "country": "Canada",
+    "countryCode": "CA",
+    "type": "passport",
+    "name": "Canadian Passport Photo",
+    "source": "canada.ca (50x70mm)",
+    "requirements": {
+      "width": 591,
+      "height": 827,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        31,
+        36
+      ],
+      "headHeightPerc": [
+        37,
+        44
+      ]
+    }
+  },
+  {
+    "id": "ca-visa",
+    "country": "Canada",
+    "countryCode": "CA",
+    "type": "visa",
+    "name": "Canada Visa",
+    "source": "canada.ca (35x45mm is common)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "ca-pr",
+    "country": "Canada",
+    "countryCode": "CA",
+    "type": "id",
+    "name": "Canadian PR Card",
+    "source": "IRCC (35x45mm is common)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "au-passport",
+    "country": "Australia",
+    "countryCode": "AU",
+    "type": "passport",
+    "name": "Australian Passport Photo",
+    "source": "passports.gov.au (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white/light-gray",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "au-visa",
+    "country": "Australia",
+    "countryCode": "AU",
+    "type": "visa",
+    "name": "Australian Visa Photo",
+    "source": "immi.homeaffairs.gov.au",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "jp-passport",
+    "country": "Japan",
+    "countryCode": "JP",
+    "type": "passport",
+    "name": "Japanese Passport Photo",
+    "source": "mofa.go.jp (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        30,
+        34
+      ],
+      "headHeightPerc": [
+        56,
+        64
+      ]
+    }
+  },
+  {
+    "id": "jp-visa",
+    "country": "Japan",
+    "countryCode": "JP",
+    "type": "visa",
+    "name": "Japan Visa Photo",
+    "source": "mofa.go.jp (45x35mm)",
+    "requirements": {
+      "width": 531,
+      "height": 413,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "jp-my-number",
+    "country": "Japan",
+    "countryCode": "JP",
+    "type": "id",
+    "name": "My Number Card",
+    "source": "japan.go.jp (30x40mm)",
+    "requirements": {
+      "width": 354,
+      "height": 472,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "ch-passport",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "type": "passport",
+    "name": "Swiss Passport Photo",
+    "source": "ch.ch (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "light-gray"
+    }
+  },
+  {
+    "id": "no-passport",
+    "country": "Norway",
+    "countryCode": "NO",
+    "type": "passport",
+    "name": "Norwegian Passport",
+    "source": "politi.no (50x65mm)",
+    "requirements": {
+      "width": 600,
+      "height": 750,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "se-passport",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "type": "passport",
+    "name": "Swedish Passport",
+    "source": "polisen.se (35x45mm is common)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "light-gray"
+    }
+  },
+  {
+    "id": "dk-passport",
+    "country": "Denmark",
+    "countryCode": "DK",
+    "type": "passport",
+    "name": "Danish Passport Photo",
+    "source": "politi.dk (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "light-gray"
+    }
+  },
+  {
+    "id": "br-passport",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "type": "passport",
+    "name": "Brazilian Passport Photo",
+    "source": "gov.br (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "mx-passport",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "type": "passport",
+    "name": "Mexican Passport Photo",
+    "source": "gob.mx (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "cn-passport",
+    "country": "China",
+    "countryCode": "CN",
+    "type": "passport",
+    "name": "Chinese Passport",
+    "source": "gov.cn (33x48mm)",
+    "requirements": {
+      "width": 354,
+      "height": 472,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "cn-visa",
+    "country": "China",
+    "countryCode": "CN",
+    "type": "visa",
+    "name": "China Visa",
+    "source": "visaforchina.org (33x48mm)",
+    "requirements": {
+      "width": 354,
+      "height": 472,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "in-passport",
+    "country": "India",
+    "countryCode": "IN",
+    "type": "passport",
+    "name": "Indian Passport Photo",
+    "source": "passportindia.gov.in (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        28,
+        36
+      ],
+      "headHeightPerc": [
+        62,
+        80
+      ]
+    }
+  },
+  {
+    "id": "in-visa",
+    "country": "India",
+    "countryCode": "IN",
+    "type": "visa",
+    "name": "Indian Visa/OCI Photo",
+    "source": "in.ckgs.us (2x2 inch digital standard)",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        28,
+        36
+      ],
+      "headHeightPerc": [
+        56,
+        72
+      ]
+    }
+  },
+  {
+    "id": "kr-passport",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "type": "passport",
+    "name": "Korean Passport Photo",
+    "source": "passport.go.kr (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "th-passport",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "type": "passport",
+    "name": "Thai Passport Photo",
+    "source": "mfa.go.th (40x60mm)",
+    "requirements": {
+      "width": 472,
+      "height": 708,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        30,
+        42
+      ],
+      "headHeightPerc": [
+        50,
+        70
+      ]
+    }
+  },
+  {
+    "id": "za-passport",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "type": "passport",
+    "name": "South African Passport Photo",
+    "source": "dha.gov.za (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "cl-passport",
+    "country": "Chile",
+    "countryCode": "CL",
+    "type": "passport",
+    "name": "Chilean Passport Photo",
+    "source": "registrocivil.cl (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white/off-white",
+      "headHeightMM": [
+        30,
+        35
+      ],
+      "headHeightPerc": [
+        66,
+        78
+      ]
+    }
+  },
+  {
+    "id": "ph-passport",
+    "country": "Philippines",
+    "countryCode": "PH",
+    "type": "passport",
+    "name": "Philippine Passport Photo",
+    "source": "dfa.gov.ph (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        28,
+        36
+      ],
+      "headHeightPerc": [
+        62,
+        80
+      ]
+    }
+  },
+  {
+    "id": "sg-passport",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "type": "passport",
+    "name": "Singapore Passport Photo",
+    "source": "ica.gov.sg (35x45mm digital)",
+    "requirements": {
+      "width": 400,
+      "height": 514,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        25,
+        35
+      ],
+      "headHeightPerc": [
+        50,
+        70
+      ]
+    }
+  },
+  {
+    "id": "my-passport",
+    "country": "Malaysia",
+    "countryCode": "MY",
+    "type": "passport",
+    "name": "Malaysian Passport Photo",
+    "source": "imi.gov.my (35x50mm)",
+    "requirements": {
+      "width": 354,
+      "height": 472,
+      "dpi": 300,
+      "background": "blue/white"
+    }
+  },
+  {
+    "id": "id-passport",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "type": "passport",
+    "name": "Indonesian Passport Photo",
+    "source": "imigrasi.go.id (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white/red",
+      "headHeightMM": [
+        28,
+        33
+      ],
+      "headHeightPerc": [
+        52,
+        62
+      ]
+    }
+  },
+  {
+    "id": "tr-passport",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "type": "passport",
+    "name": "Turkish Biometric Passport",
+    "source": "nvi.gov.tr (50x60mm)",
+    "requirements": {
+      "width": 591,
+      "height": 708,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        45,
+        51
+      ]
+    }
+  },
+  {
+    "id": "eg-passport",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "type": "passport",
+    "name": "Egyptian Passport Photo",
+    "source": "egyptianembassy.net (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        30,
+        36
+      ],
+      "headHeightPerc": [
+        56,
+        68
+      ]
+    }
+  },
+  {
+    "id": "ar-passport",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "type": "passport",
+    "name": "Argentine Passport Photo",
+    "source": "argentina.gob.ar (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        30,
+        35
+      ],
+      "headHeightPerc": [
+        56,
+        66
+      ]
+    }
+  },
+  {
+    "id": "pe-passport",
+    "country": "Peru",
+    "countryCode": "PE",
+    "type": "passport",
+    "name": "Peruvian Passport Photo",
+    "source": "gob.pe (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        28,
+        34
+      ],
+      "headHeightPerc": [
+        52,
+        64
+      ]
+    }
+  },
+  {
+    "id": "co-passport",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "type": "passport",
+    "name": "Colombian Passport Photo",
+    "source": "cancilleria.gov.co (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        30,
+        35
+      ],
+      "headHeightPerc": [
+        56,
+        66
+      ]
+    }
+  },
+  {
+    "id": "nz-passport",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "type": "passport",
+    "name": "NZ Passport Photo",
+    "source": "passports.govt.nz (900x1200px)",
+    "requirements": {
+      "width": 900,
+      "height": 1200,
+      "dpi": 300,
+      "background": "light-coloured",
+      "headHeightMM": [
+        29,
+        34
+      ],
+      "headHeightPerc": [
+        64,
+        76
+      ]
+    }
+  },
+  {
+    "id": "sa-passport",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "type": "passport",
+    "name": "Saudi Passport Photo",
+    "source": "saudiembassy.net (40x60mm)",
+    "requirements": {
+      "width": 472,
+      "height": 708,
+      "dpi": 300,
+      "background": "light-gray",
+      "headHeightMM": [
+        37,
+        39
+      ],
+      "headHeightPerc": [
+        62,
+        65
+      ]
+    }
+  },
+  {
+    "id": "ae-visa",
+    "country": "UAE",
+    "countryCode": "AE",
+    "type": "visa",
+    "name": "UAE Visa/Residency Photo",
+    "source": "mofa.gov.ae (35x45mm is standard)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        70,
+        80
+      ]
+    }
+  },
+  {
+    "id": "iq-passport",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "type": "passport",
+    "name": "Iraqi Passport Photo",
+    "source": "iraqi-embassy.org (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        30,
+        36
+      ],
+      "headHeightPerc": [
+        66,
+        80
+      ]
+    }
+  },
+  {
+    "id": "pk-passport",
+    "country": "Pakistan",
+    "countryCode": "PK",
+    "type": "passport",
+    "name": "Pakistani Passport Photo",
+    "source": "nadra.gov.pk (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        29,
+        36
+      ],
+      "headHeightPerc": [
+        64,
+        80
+      ]
+    }
+  },
+  {
+    "id": "vn-passport",
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "type": "passport",
+    "name": "Vietnamese Passport Photo",
+    "source": "mofa.gov.vn (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        70,
+        80
+      ]
+    }
+  },
+  {
+    "id": "ar-id",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "type": "id",
+    "name": "Argentine DNI (ID Card)",
+    "source": "argentina.gob.ar (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white"
+    }
+  },
+  {
+    "id": "br-visa",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "type": "visa",
+    "name": "Brazilian Visa Photo",
+    "source": "gov.br (35x45mm is standard)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        22,
+        35
+      ],
+      "headHeightPerc": [
+        50,
+        69
+      ]
+    }
+  },
+  {
+    "id": "cu-passport",
+    "country": "Cuba",
+    "countryCode": "CU",
+    "type": "passport",
+    "name": "Cuban Passport Photo",
+    "source": "embacuba.cubaminrex.cu (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "at-passport",
+    "country": "Austria",
+    "countryCode": "AT",
+    "type": "passport",
+    "name": "Austrian Passport Photo",
+    "source": "bmi.gv.at (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "light-coloured",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "hu-passport",
+    "country": "Hungary",
+    "countryCode": "HU",
+    "type": "passport",
+    "name": "Hungarian Passport Photo",
+    "source": "magyarorszag.hu (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "cz-passport",
+    "country": "Czech Republic",
+    "countryCode": "CZ",
+    "type": "passport",
+    "name": "Czech Passport Photo",
+    "source": "mvcr.cz (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white/light-blue",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "gr-passport",
+    "country": "Greece",
+    "countryCode": "GR",
+    "type": "passport",
+    "name": "Greek Passport Photo",
+    "source": "astynomia.gr (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "cn-hmt",
+    "country": "China (Permit)",
+    "countryCode": "CN",
+    "type": "other",
+    "name": "Hong Kong, Macau, Taiwan Travel Permit",
+    "source": "mps.gov.cn (33x48mm)",
+    "requirements": {
+      "width": 390,
+      "height": 567,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        28,
+        33
+      ],
+      "headHeightPerc": [
+        60,
+        70
+      ]
+    }
+  },
+  {
+    "id": "hk-passport",
+    "country": "Hong Kong",
+    "countryCode": "HK",
+    "type": "passport",
+    "name": "Hong Kong Passport Photo",
+    "source": "immd.gov.hk (40x50mm)",
+    "requirements": {
+      "width": 472,
+      "height": 591,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        40
+      ],
+      "headHeightPerc": [
+        64,
+        80
+      ]
+    }
+  },
+  {
+    "id": "tw-passport",
+    "country": "Taiwan",
+    "countryCode": "TW",
+    "type": "passport",
+    "name": "Taiwanese Passport Photo",
+    "source": "boca.gov.tw (35x45mm)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        68
+      ]
+    }
+  },
+  {
+    "id": "eg-visa",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "type": "visa",
+    "name": "Egyptian Visa Photo",
+    "source": "egyptianembassy.net (2x2 inch for visa)",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        25,
+        35
+      ],
+      "headHeightPerc": [
+        50,
+        70
+      ]
+    }
+  },
+  {
+    "id": "il-passport",
+    "country": "Israel",
+    "countryCode": "IL",
+    "type": "passport",
+    "name": "Israeli Passport / Visa Photo",
+    "source": "gov.il (35×45 мм)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        71,
+        80
+      ]
+    }
+  },
+  {
+    "id": "pt-passport",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "type": "passport",
+    "name": "Portuguese Passport / Visa Photo",
+    "source": "Schengen / EU standard",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        71,
+        80
+      ]
+    }
+  },
+  {
+    "id": "ie-passport",
+    "country": "Ireland",
+    "countryCode": "IE",
+    "type": "passport",
+    "name": "Irish Passport Photo",
+    "source": "Passport Office Ireland standard",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        70,
+        80
+      ]
+    }
+  },
+  {
+    "id": "ro-passport",
+    "country": "Romania",
+    "countryCode": "RO",
+    "type": "passport",
+    "name": "Romanian Passport / ID Photo",
+    "source": "EU standard / Romanian authorities",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        71,
+        80
+      ]
+    }
+  },
+  {
+    "id": "fi-passport",
+    "country": "Finland",
+    "countryCode": "FI",
+    "type": "passport",
+    "name": "Finnish Passport Photo",
+    "source": "Finnish Border Guard (36×47 мм)",
+    "requirements": {
+      "width": 425,
+      "height": 555,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        65,
+        76
+      ]
+    }
+  },
+  {
+    "id": "ng-passport",
+    "country": "Nigeria",
+    "countryCode": "NG",
+    "type": "passport",
+    "name": "Nigerian Passport Photo",
+    "source": "Nigerian Immigration Service standard (50x50mm)",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        30,
+        40
+      ],
+      "headHeightPerc": [
+        60,
+        80
+      ]
+    }
+  },
+  {
+    "id": "bd-passport",
+    "country": "Bangladesh",
+    "countryCode": "BD",
+    "type": "passport",
+    "name": "Bangladeshi Passport Photo",
+    "source": "Immigration & Passport Bangladesh standard (50x50mm)",
+    "requirements": {
+      "width": 600,
+      "height": 600,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        30,
+        36
+      ],
+      "headHeightPerc": [
+        60,
+        72
+      ]
+    }
+  },
+  {
+    "id": "ma-visa",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "type": "visa",
+    "name": "Moroccan Visa Photo",
+    "source": "Morocco consular standard",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        71,
+        80
+      ]
+    }
+  },
+  {
+    "id": "hr-passport",
+    "country": "Croatia",
+    "countryCode": "HR",
+    "type": "passport",
+    "name": "Croatian Passport / ID Photo",
+    "source": "Croatian Ministry standard (EU / Schengen)",
+    "requirements": {
+      "width": 413,
+      "height": 531,
+      "dpi": 300,
+      "background": "white",
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "headHeightPerc": [
+        71,
+        80
+      ]
+    }
+  }
+]
